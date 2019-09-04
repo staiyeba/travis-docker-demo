@@ -4,7 +4,12 @@ language: go
 
 services:
   - docker
-  
+
+install:
+  - whoami
+  - echo "Start of pipeline"
+  - docker ps
+
 script:
   - docker pull hello-world 
   - docker run -d hello-world
