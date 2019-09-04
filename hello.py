@@ -1,5 +1,4 @@
-
 #!/usr/bin/env python
+# This program prints Hello world!
 
-# This program prints Hello, world!
-print('Hello world!')
+print("Hello world!")
